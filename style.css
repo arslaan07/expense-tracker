@@ -20,6 +20,7 @@ input[type="submit"] {
     padding: 8px;
     border: 2px solid black;
     box-sizing: border-box;
+    font-size: 16px;
 }
 input[type="submit"] {
     background: rgb(34, 156, 34);
@@ -45,4 +46,9 @@ th {
     background-color: rgb(34, 156, 34);
     color: white;
 
+}
+.expense-row td {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
 }

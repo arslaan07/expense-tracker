@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             newRow.innerHTML = `<td>${description}</td>
                                 <td>${category}</td>
                                 <td>${amount}</td>`;
+            newRow.classList.add('expense-row');
             expenseList.appendChild(newRow);
             document.getElementById('description').value = '';
             document.getElementById('category').value = '';
